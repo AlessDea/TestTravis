@@ -2,10 +2,10 @@ language: java
 jdk:
    - oraclejdk9
 addons:
- sonarcloud:
-  organization: alessdea
-  token:
-   secure: cf9ef903043a515bf101ac6e8304cb440074ac43
+  sonarcloud:
+    organization: alessdea
+    token:
+     secure: "**************************"
 script:
 - ant build
 - sonar-scanner
