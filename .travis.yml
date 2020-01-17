@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: alessdea
     token:
-     secure: "**************************"
+     secure: c33b8a4dd94d7ec0837920be8e59e86a50d73ee0
 script:
 - ant build
 - sonar-scanner
