@@ -5,7 +5,7 @@ addons:
  sonarcloud:
   organization: alessdea
   token:
-   secure: travis encrypt cf9ef903043a515bf101ac6e8304cb440074ac43
+   secure: cf9ef903043a515bf101ac6e8304cb440074ac43
 script:
 - ant build
 - sonar-scanner
