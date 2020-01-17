@@ -3,7 +3,7 @@ jdk:
    - oraclejdk9
 addons:
  sonarcloud:
-  organization: AlessDea
+  organization: alessdea
   token:
    secure: travis encrypt cf9ef903043a515bf101ac6e8304cb440074ac43
 script:
