@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: alessdea
     token:
-     secure: travis encrypt bb6709d5a73398c743dab150da03c83b54830d4e
+     secure: "GhGCwUlaN0otzczxBSUZ4Im20gpGvcEnj0sz8RDB3ldIoDMpBNhHy7em9d3+ENQaODyh7S+9/Zi3v1ZmUB8UIgaFsoIXRE/dizxGU9vLMlMHCTVHa11FS+g+CH6n4psKmhHvocUrfIy9x8Y/S5pXME1aTB9Lo/++hkguDnIqNyPrqLivtVImCwC6TvwOphZ02S3g0WLs9X/+ftDobab0dThCa/AFpSh00d6532DjdsKPs8YRbrby/AyW562ZGmtVc88hOpN2jNaGWRpr6Yj1W7RSF9GBtUiyuBgn47lHWH0Qa+v9Ku+jOQ/Vyv0ce9oUmH/e6Lj21nj5R7JUY0xpQJcTBGo7ZDMzw6gwBd8c2m7RJ3EyUJsQzQEiX8z1aS9Fh6WzoVWABaIASDXPMl+gCygl8oJzFfq8yHz4arzGf6QPmEVk2MdEAQVDyD2tLrdfts/8zPz6OHXlEezux7gQ2jq9jSVKICA45PW3gHNK68DhYMkTvYx6z3KF9p3zE7qkzRcXnvcANzR/oh4XRUOfoMXBbIyiP2zYoptiOAnSNNNAstF2rGp6RqfOLsd1wH+X2jcBoALm01OfC2A/+h3byXaIq8T27lTB1vA2lTGwUtPvfxY6jx7tHcFv+XqanTu0zDAiiDnd+BDDr5dSyz3Ln6DcU08QGVlQFM07K/QkCcM="
 script:
 - ant build
 - sonar-scanner
